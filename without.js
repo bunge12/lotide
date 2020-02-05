@@ -20,14 +20,15 @@ const eqArrays = function(arr1, arr2) {
 };
 
 const without = function(source, itemsToRemove) {
-  for (let i = 0; i < source.length; i++) {
+  let source2 = Array.from(source);
+  for (let i = 0; i < source2.length; i++) {
     for (let y = 0; y < itemsToRemove.length; y++) {
-      if (source[i] === itemsToRemove[y]) {
-        source.splice(i ,1);
+      if (source2[i] === itemsToRemove[y]) {
+        source2.splice(i ,1);
       }
     }
   }
-  return source;
+  return source2;
 };
 
 assertArraysEqual(without([1, 2, 3], [1]), [2, 3]);

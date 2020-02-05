@@ -7,7 +7,8 @@ const assertEqual = function(actual, expected) {
 };
 
 const findKeyByValue = function(list, value) {
-
+  let key = Object.keys(list).find(key => list[key] === value);
+  return key;
 }
 
 const bestTVShowsByGenre = { 
@@ -17,3 +18,5 @@ const bestTVShowsByGenre = {
 };
 
 findKeyByValue(bestTVShowsByGenre, "The Wire");
+assertEqual(findKeyByValue(bestTVShowsByGenre, "The Wire"), "drama");
+assertEqual(findKeyByValue(bestTVShowsByGenre, "That '70s Show"), undefined);

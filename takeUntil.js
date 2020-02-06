@@ -20,7 +20,7 @@ const eqArrays = function(arr1, arr2) {
 };
 
 const takeUntil = function(array, callback) {
-  result = [];
+  let result = [];
   for (let item of array) {
     if (!callback(item)) {
       result.push(item);
@@ -29,7 +29,7 @@ const takeUntil = function(array, callback) {
     }
   }
   return result;
-}
+};
 
 const data1 = [1, 2, 5, 7, 2, -1, 2, 4, 5];
 const data2 = ["I've", "been", "to", "Hollywood", ",", "I've", "been", "to", "Redwood"];

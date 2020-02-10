@@ -1,8 +1,8 @@
 {
-  "name": "lotide",
+  "name": "@bunge12/lotide",
   "version": "1.0.0",
-  "description": "",
-  "main": "assertArraysEqual.js",
+  "description": "A mini clone of Lodash library created during Web Dev bootcamp at Lighthouse Labs in Vancouver, Canada.",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
@@ -13,11 +13,14 @@
     "type": "git",
     "url": "git+https://github.com/bunge12/lotide.git"
   },
-  "author": "",
+  "author": "Artur Iatsko <arturyatsko@gmail.com> (http://github.com/bunge12/)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/bunge12/lotide/issues"
   },
+  "contributors": [
+    "Joe (https://github.com/Joe123123)"
+  ],
   "homepage": "https://github.com/bunge12/lotide#readme",
   "devDependencies": {
     "chai": "^4.2.0",

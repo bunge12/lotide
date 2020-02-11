@@ -1,6 +1,6 @@
 {
   "name": "@bunge12/lotide",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A mini clone of Lodash library created during Web Dev bootcamp at Lighthouse Labs in Vancouver, Canada.",
   "main": "index.js",
   "directories": {
